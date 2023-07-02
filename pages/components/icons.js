@@ -620,13 +620,3 @@ export const LinkArrow = ({ className, ...rest }) => (
     />
   </svg>
 );
-
-export default {
-  LinkedInIcon,
-  GithubIcon,
-  PinterestIcon,
-  DribbbleIcon,
-  SunIcon,
-  MoonIcon,
-  LinkArrow,
-};
