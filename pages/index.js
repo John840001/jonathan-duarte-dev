@@ -2,11 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import ProfilePic from "../public/images/profile/developer.png";
-import AnimatedText from "./components/AnimatedText";
-import Layout from "./components/Layout";
-import { LinkArrow } from "./components/icons";
-import HireMe from "./components/HireMe";
-import TransitionEffect from "./components/TransitionEffect";
+import AnimatedText from "../components/AnimatedText";
+import Layout from "../components/Layout";
+import { LinkArrow } from "../components/icons";
+import HireMe from "../components/HireMe";
+import TransitionEffect from "../components/TransitionEffect";
 
 export default function Home() {
   return (
