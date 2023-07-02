@@ -105,7 +105,7 @@ const NavBar = () => {
             whileTap={{ scale: 0.9 }}
             className="w-10 mr-3"
           >
-            <LinkedInIcon />
+            <LinkedInIcon className={"icon"} />
           </motion.a>
           <motion.a
             href="https://github.com/John840001"
@@ -114,7 +114,7 @@ const NavBar = () => {
             whileTap={{ scale: 0.9 }}
             className="w-10 mx-3"
           >
-            <GithubIcon />
+            <GithubIcon className={"icon"} />
           </motion.a>
 
           <button
@@ -124,9 +124,9 @@ const NavBar = () => {
           `}
           >
             {mode === "dark" ? (
-              <SunIcon className={"fill-dark"} />
+              <SunIcon className={"fill-dark icon"} />
             ) : (
-              <MoonIcon className={"fill-dark"} />
+              <MoonIcon className={"fill-dark icon"} />
             )}
           </button>
         </nav>
@@ -162,7 +162,7 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               className="w-10 mr-3 sm:mx-1"
             >
-              <LinkedInIcon />
+              <LinkedInIcon className={"icon"}/>
             </motion.a>
             <motion.a
               href="https://github.com/John840001"
@@ -171,7 +171,7 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               className="w-10 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
             >
-              <GithubIcon />
+              <GithubIcon className={"icon"} />
             </motion.a>
 
             <button
@@ -181,9 +181,9 @@ const NavBar = () => {
           `}
             >
               {mode === "dark" ? (
-                <SunIcon className={"fill-dark"} />
+                <SunIcon className={"fill-dark icon"} />
               ) : (
-                <MoonIcon className={"fill-dark"} />
+                <MoonIcon className={"fill-dark icon"} />
               )}
             </button>
           </nav>

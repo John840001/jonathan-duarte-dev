@@ -31,7 +31,7 @@ const FeaturedProject = ({ type, title, summary, img, github }) => {
         <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary}</p>
         <div className="mt-2 flex items-center">
           <Link href={github} target="_blank" className="w-10">
-            <GithubIcon />
+            <GithubIcon className={"icon"}/>
           </Link>
         </div>
       </div>
@@ -59,7 +59,7 @@ const Project = ({ title, img, type, github }) => {
         <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl">{title}</h2>
         <div className="mt-2 flex items-center">
           <Link href={github} target="_blank" className="w-8 md:w-6">
-            <GithubIcon />
+            <GithubIcon className={"icon"}/>
           </Link>
         </div>
       </div>
