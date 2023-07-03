@@ -1,7 +1,7 @@
 import { AnimatePresence } from "framer-motion";
 import "../styles/globals.css";
-import Footer from "./components/Footer";
-import NavBar from "./components/navbar";
+import Footer from "../components/Footer";
+import NavBar from "../components/navbar";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
 import { useRouter } from "next/router";

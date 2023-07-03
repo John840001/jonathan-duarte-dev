@@ -1,12 +1,12 @@
 import React from "react";
 import Head from "next/head";
-import Layout from "./components/Layout";
-import AnimatedText from "./components/AnimatedText";
+import Layout from "../components/Layout";
+import AnimatedText from "../components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
-import { GithubIcon } from "./components/icons";
+import { GithubIcon } from "../components/icons";
 import project1 from "../public/images/projects/crypto-screener-cover-image.jpg";
-import TransitionEffect from "./components/TransitionEffect";
+import TransitionEffect from "../components/TransitionEffect";
 
 const FeaturedProject = ({ type, title, summary, img, github }) => {
   return (
