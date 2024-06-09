@@ -59,7 +59,7 @@ const Education = () => {
 
           <Details
             type="Bachelor of Science in Computer Science"
-            time="2020 - Present"
+            time="2020 - 2024"
             place="Fr. Conceicao Rodrigues College of Engineering"
             info="I am currently pursuing my Bachelor's degree in Computer Science from Fr. Conceicao Rodrigues College of Engineering, Bandra, Mumbai."
           />

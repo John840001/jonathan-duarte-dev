@@ -56,7 +56,7 @@ const Experience = () => {
             position="Full Stack Developer"
             company="Helpy Moto"
             companyLink="https://helpymoto.com/"
-            time="April 2023 - Present"
+            time="April 2023 - July 2023"
             address="Remote"
             work="Helpy Moto is a startup that is building a platform to connect customers with service providers like Mechanics, Cleaners and Drivers. I am an Intern responsible for building the web application using React and Tailwind CSS. I am also responsible for building the backend using Node.js, Express, and MongoDB."
           />
