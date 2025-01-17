@@ -60,6 +60,14 @@ const Experience = () => {
             address="Remote"
             work="Helpy Moto is a startup that is building a platform to connect customers with service providers like Mechanics, Cleaners and Drivers. I am an Intern responsible for building the web application using React and Tailwind CSS. I am also responsible for building the backend using Node.js, Express, and MongoDB."
           />
+          <Details
+            position="Software Developer"
+            company="Ingram Micro Pvt. Ltd."
+            companyLink="https://www.ingrammicro.com/"
+            time="July 2024 - Current"
+            address="Office @ Kanjurmarg(W), Mumbai."
+            work="I am a Trainee Software developer at Ingram Micro. It is an organization that provides B2B Customer Services. It also manages different businesses with the help of a platform called Xvantage that is developed by Ingram Micro. My main task is to manage development in the ERP System developed by Ingram Micro."
+          />
         </ul>
       </div>
     </div>
